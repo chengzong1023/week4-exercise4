@@ -1,0 +1,25 @@
+name: local-jupyter
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyter=1.0.0
+  - jupyterlab=4.0.0
+  - numpy=1.24.0
+  - pandas=2.0.0
+  - matplotlib=3.7.0
+  - seaborn=0.12.0
+  - scikit-learn=1.3.0
+  - ipywidgets=8.0.0
+  - geopandas=0.13.0
+  - shapely=2.0.0
+  - xarray=2023.6.0
+  - rasterio=1.3.0
+  - rasterstats=0.19.0
+  - folium=0.14.0
+  - mapclassify=2.5.0
+  - pip
+  - pip:
+    - notebook==6.5.4
+    - rioxarray==0.13.0
